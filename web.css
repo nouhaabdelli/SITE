@@ -144,6 +144,16 @@ img{
   font-weight: 700; /* optionnel si tu veux un titre gras */
     font-size: 4rem;  /* tu peux ajuster la taille */
 }
+.home__description {
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* police moderne */
+    font-weight: 400;         /* texte normal */
+    font-size: 1.125rem;      /* taille légèrement plus grande pour lisibilité */
+    line-height: 1.8;         /* espace entre les lignes pour le confort de lecture */
+    color: #444;              /* couleur gris foncé pour le texte */
+    margin-top: 1rem;         /* espace au-dessus du paragraphe */
+    max-width: 700px;         /* limite la largeur pour que ce soit facile à lire */
+    text-align: justify;       /* optionnel : aligne le texte des deux côtés pour un look pro */
+}
 
 .bd-grid{
   display: grid;
@@ -539,6 +549,7 @@ img{
     }
 
 }
+
 
 
 
