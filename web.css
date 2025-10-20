@@ -131,7 +131,7 @@ img{
 
 /*========== LAYOUT ==========*/
 .bd-container{
-  max-width: 960px;
+  max-width: 1600px;
   width: calc(100% - 2rem);
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
@@ -519,4 +519,5 @@ img{
     .home__container {
         height: 640px;
     }
+
 }
