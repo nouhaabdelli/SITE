@@ -141,9 +141,9 @@ img{
 
 }
 .home__title {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700; /* optionnel si tu veux un titre gras */
-    font-size: 3.5rem;  /* tu peux ajuster la taille */
+ font-family: "Great Vibes", cursive;
+  font-weight: 700; /* optionnel si tu veux un titre gras */
+    font-size: 4rem;  /* tu peux ajuster la taille */
 }
 
 .bd-grid{
@@ -540,6 +540,7 @@ img{
     }
 
 }
+
 
 
 
