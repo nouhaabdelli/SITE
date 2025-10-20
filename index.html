@@ -47,7 +47,9 @@
                 <div class="home__data">
                     <h1 class="home__title">ShopSense</h1>
                     <h2 class="home__subtitle">Quand la data devine vos futurs clients</h2>
-                    <p class="home__description">Découvrez une nouvelle façon d’interpréter les données clients : transformez les chiffres en émotions, et les prédictions en stratégies gagnantes.</p>
+                    <p class="home__description">Découvrez une nouvelle façon d’interpréter les données clients : transformez les chiffres en émotions, et les prédictions en stratégies gagnantes.
+                                        Grâce à l’intelligence des données, notre plateforme anticipe les tendances d’achat et aide les entreprises à comprendre leurs clients comme jamais auparavant.
+</p>
                 </div>
 
                 <div class="home__3d-container" id="canvas-container"></div>
@@ -61,7 +63,6 @@
                     <span class="section-subtitle about__initial">Notre Mission</span>
                     <h2 class="section-title about__initial">Prédire le comportement client</h2>
                     <p class="about__description">Découvrez une nouvelle façon d’interpréter les données clients : transformez les chiffres en émotions, et les prédictions en stratégies gagnantes.
-                    Grâce à l’intelligence des données, notre plateforme anticipe les tendances d’achat et aide les entreprises à comprendre leurs clients comme jamais auparavant.
                     </p>
                 </div>
             </div>
@@ -96,46 +97,51 @@
             </div>
         </section>
 
-        <!--========== DEMOGRAPHIC FORM ==========-->
-        <section class="form-section" id="demographic-form">
-            <div class="bd-container">
-                <h2 class="section-title">Analyse Démographique</h2>
-                <div class="form-container">
-                    <form>
-                        <div class="form-group">
-                            <label>Tranche d'âge</label>
-                            <select>
-                                <option>18-25 ans</option>
-                                <option>26-35 ans</option>
-                                <option>36-45 ans</option>
-                                <option>46-60 ans</option>
-                                <option>60+ ans</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label>Sexe</label>
-                            <select>
-                                <option>Homme</option>
-                                <option>Femme</option>
-                                <option>Autre</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label>Revenu annuel (€)</label>
-                            <input type="number" placeholder="Ex: 35000">
-                        </div>
-                        <div class="form-group">
-                            <label>Localisation</label>
-                            <input type="text" placeholder="Ville ou région">
-                        </div>
-                        <div class="form-buttons">
-                            <button type="submit" class="button">Soumettre</button>
-                            <button type="button" class="button button-secondary" onclick="clearForm(this)">Effacer</button>
-                        </div>
-                    </form>
+      <!--========== DEMOGRAPHIC FORM ==========-->
+<section class="form-section" id="demographic-form">
+    <div class="bd-container">
+        <h2 class="section-title">Formulaire de prédiction</h2>
+        <p class="section-subtitle">Saisissez les informations du client pour analyser et prédire son comportement d’achat.</p>
+
+        <div class="form-container">
+            <form>
+                <div class="form-group">
+                    <label>Tranche d'âge du client</label>
+                    <select>
+                        <option>18-25 ans</option>
+                        <option>26-35 ans</option>
+                        <option>36-45 ans</option>
+                        <option>46-60 ans</option>
+                        <option>60+ ans</option>
+                    </select>
                 </div>
-            </div>
-        </section>
+                <div class="form-group">
+                    <label>Genre</label>
+                    <select>
+                        <option>Homme</option>
+                        <option>Femme</option>
+                        <option>Autre</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Revenu mensuel estimé (USD)</label>
+                    <input type="number" placeholder="Ex: 2500">
+                </div>
+                <div class="form-group">
+                    <label>Localisation du client</label>
+                    <input type="text" placeholder="Ville ou région">
+                </div>
+                <div class="form-group">
+                    <label>Fréquence moyenne d’achat</label>
+                    <select>
+                        <option>Faible</option>
+                        <option>Moyenne</option>
+                        <option>Élevée</option>
+                    </select>
+                </div>
+                <div class="form-buttons">
+                    <button type="submit" class="button">Analyser le profil</button>
+                    <button type="button" class="button button-secondary" onclick="clearFo
 
         <!--========== PREFERENCES FORM ==========-->
         <section class="form-section" id="preferences-form">
@@ -282,4 +288,5 @@
 </body>
 
 </html>
+
 
