@@ -96,8 +96,7 @@
                 </div>
             </div>
         </section>
-
-      <!--========== DEMOGRAPHIC FORM ==========-->
+<!--========== DEMOGRAPHIC FORM ==========-->
 <section class="form-section" id="demographic-form">
     <div class="bd-container">
         <h2 class="section-title">Formulaire de prédiction</h2>
@@ -141,53 +140,63 @@
                 </div>
                 <div class="form-buttons">
                     <button type="submit" class="button">Analyser le profil</button>
-                    <button type="button" class="button button-secondary" onclick="clearFo
-
-        <!--========== PREFERENCES FORM ==========-->
-        <section class="form-section" id="preferences-form">
-            <div class="bd-container">
-                <h2 class="section-title">Analyse des Préférences</h2>
-                <div class="form-container">
-                    <form>
-                        <div class="form-group">
-                            <label>Catégorie de produits préférée</label>
-                            <select>
-                                <option>Électronique</option>
-                                <option>Mode & Vêtements</option>
-                                <option>Alimentation</option>
-                                <option>Maison & Décoration</option>
-                                <option>Sport & Loisirs</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label>Fréquence d'achat</label>
-                            <select>
-                                <option>Quotidien</option>
-                                <option>Hebdomadaire</option>
-                                <option>Mensuel</option>
-                                <option>Occasionnel</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label>Budget moyen par achat (€)</label>
-                            <input type="number" placeholder="Ex: 50">
-                        </div>
-                        <div class="form-group">
-                            <label>Canal d'achat préféré</label>
-                            <select>
-                                <option>En ligne</option>
-                                <option>En magasin</option>
-                                <option>Les deux</option>
-                            </select>
-                        </div>
-                        <div class="form-buttons">
-                            <button type="submit" class="button">Soumettre</button>
-                            <button type="button" class="button button-secondary" onclick="clearForm(this)">Effacer</button>
-                        </div>
-                    </form>
+                    <button type="button" class="button button-secondary" onclick="clearForm(this)">Effacer</button>
                 </div>
-            </div>
-        </section>
+            </form>
+        </div>
+    </div>
+</section>
+
+ <!--========== PREFERENCES FORM ==========-->
+<section class="form-section" id="preferences-form">
+    <div class="bd-container">
+        <h2 class="section-title">Segmentation des clients</h2>
+        <p class="section-subtitle">Identifiez le profil d’un client selon ses habitudes d’achat et ses préférences.</p>
+
+        <div class="form-container">
+            <form>
+                <div class="form-group">
+                    <label>Type de produits achetés</label>
+                    <select>
+                        <option>Électronique</option>
+                        <option>Mode & Accessoires</option>
+                        <option>Beauté & Santé</option>
+                        <option>Maison & Décoration</option>
+                        <option>Alimentation</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Fréquence moyenne d’achat</label>
+                    <select>
+                        <option>Faible</option>
+                        <option>Moyenne</option>
+                        <option>Élevée</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Dépense moyenne par achat (USD)</label>
+                    <input type="number" placeholder="Ex: 120">
+                </div>
+
+                <div class="form-group">
+                    <label>Canal d’achat principal</label>
+                    <select>
+                        <option>En ligne</option>
+                        <option>En magasin</option>
+                        <option>Mixte (les deux)</option>
+                    </select>
+                </div>
+
+                <div class="form-buttons">
+                    <button type="submit" class="button">Analyser le segment</button>
+                    <button type="button" class="button button-secondary" onclick="clearForm(this)">Effacer</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
 
         <!--========== PREDICTION FORM ==========-->
         <section class="form-section" id="prediction-form">
@@ -288,5 +297,6 @@
 </body>
 
 </html>
+
 
 
