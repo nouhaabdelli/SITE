@@ -178,7 +178,6 @@ img{
   }
 }
 .nav.bd-container {
-  background-color: #fff; /* ou la couleur que tu veux */
   height: 100px; /* ↑ Augmente la hauteur du bloc (par défaut souvent 60px) */
   display: flex;
   align-items: center; /* centre verticalement le contenu */
@@ -193,6 +192,7 @@ img{
 
 .nav__link, .nav__logo, .nav__toggle{
   color: var(--text-color);
+  font-size: 2rem;
   font-weight: var(--font-medium);
 }
 
@@ -532,6 +532,7 @@ img{
     }
 
 }
+
 
 
 
