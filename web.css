@@ -138,6 +138,11 @@ img{
     padding-top: 11rem; /* ↓ Le contenu interne est décalé vers le bas */
 
 }
+.home__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; /* optionnel si tu veux un titre gras */
+    font-size: 3rem;  /* tu peux ajuster la taille */
+}
 
 .bd-grid{
   display: grid;
@@ -533,6 +538,7 @@ img{
     }
 
 }
+
 
 
 
