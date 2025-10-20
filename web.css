@@ -177,6 +177,15 @@ img{
     z-index: var(--z-fixed);
   }
 }
+.nav.bd-container {
+  background-color: #fff; /* ou la couleur que tu veux */
+  height: 100px; /* ↑ Augmente la hauteur du bloc (par défaut souvent 60px) */
+  display: flex;
+  align-items: center; /* centre verticalement le contenu */
+  justify-content: space-between;
+  padding: 0 2rem; /* espace intérieur gauche/droite */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* optionnel : une ombre élégante */
+}
 
 .nav__item{
   margin-bottom: var(--mb-2);
@@ -523,6 +532,7 @@ img{
     }
 
 }
+
 
 
 
