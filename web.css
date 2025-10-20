@@ -192,8 +192,9 @@ img{
 
 .nav__link, .nav__logo, .nav__toggle{
   color: var(--text-color);
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: var(--font-medium);
+   font-family: 'Poppins', sans-serif;
 }
 
 .nav__logo:hover{
@@ -532,6 +533,7 @@ img{
     }
 
 }
+
 
 
 
