@@ -68,34 +68,44 @@
             </div>
         </section>
 
-        <!--========== SERVICES ==========-->
-        <section class="services section bd-container" id="services">
-            <span class="section-subtitle">Nos Solutions</span>
-            <h2 class="section-title">Choisissez votre analyse</h2>
+     <!--========== SERVICES ==========-->
+<section class="services section bd-container" id="services">
+    <span class="section-subtitle">Nos Solutions</span>
+    <h2 class="section-title">Choisissez votre analyse</h2>
 
-            <div class="services__container bd-grid">
-                <div class="services__content">
-                    <i class='bx bx-user services__icon'></i>
-                    <h3 class="services__title">Analyse Démographique</h3>
-                    <p class="services__description">Analysez l'âge, le sexe et le revenu de vos clients pour identifier les segments clés de votre marché.</p>
-                    <button class="button" onclick="showForm('demographic')">Commencer</button>
-                </div>
+    <div class="services__container bd-grid">
+        <!-- 1. Prédiction -->
+        <div class="services__content">
+            <i class='bx bx-line-chart services__icon'></i>
+            <h3 class="services__title">Prédiction</h3>
+            <p class="services__description">
+                Prévoyez les tendances et les comportements futurs des clients grâce à des modèles de prédiction basés sur leurs données d'achat et leurs habitudes.
+            </p>
+            <button class="button" onclick="showForm('prediction')">Commencer</button>
+        </div>
 
-                <div class="services__content">
-                    <i class='bx bx-shopping-bag services__icon'></i>
-                    <h3 class="services__title">Analyse des Préférences</h3>
-                    <p class="services__description">Découvrez les préférences d'achat et les habitudes de consommation de vos clients.</p>
-                    <button class="button" onclick="showForm('preferences')">Commencer</button>
-                </div>
+        <!-- 2. Segmentation -->
+        <div class="services__content">
+            <i class='bx bx-user services__icon'></i>
+            <h3 class="services__title">Segmentation</h3>
+            <p class="services__description">
+                Divisez vos clients en groupes homogènes selon leur âge, revenu ou fréquence d'achat pour mieux cibler vos stratégies marketing.
+            </p>
+            <button class="button" onclick="showForm('segmentation')">Commencer</button>
+        </div>
 
-                <div class="services__content">
-                    <i class='bx bx-line-chart services__icon'></i>
-                    <h3 class="services__title">Prédiction Comportementale</h3>
-                    <p class="services__description">Utilisez l'IA pour prédire les futurs comportements d'achat et optimiser vos stratégies.</p>
-                    <button class="button" onclick="showForm('prediction')">Commencer</button>
-                </div>
-            </div>
-        </section>
+        <!-- 3. Recommandation -->
+        <div class="services__content">
+            <i class='bx bx-shopping-bag services__icon'></i>
+            <h3 class="services__title">Recommandation</h3>
+            <p class="services__description">
+                Offrez à chaque client des produits personnalisés grâce à un système de recommandation intelligent fondé sur leurs préférences et comportements passés.
+            </p>
+            <button class="button" onclick="showForm('recommandation')">Commencer</button>
+        </div>
+    </div>
+</section>
+
 <!--========== DEMOGRAPHIC FORM ==========-->
 <section class="form-section" id="demographic-form">
     <div class="bd-container">
@@ -302,6 +312,7 @@
 </body>
 
 </html>
+
 
 
 
